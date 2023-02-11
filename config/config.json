@@ -18,16 +18,36 @@
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "1Mady9u9p7lteRE66qNWXfLe5O1YOCqi",
+    "database": "movietheatherdb",
+    "host": "dpg-cf1h2a6n6mpkr6bgtnd0-a.oregon-postgres.render.com",
+    "url" : "postgres://root:1Mady9u9p7lteRE66qNWXfLe5O1YOCqi@dpg-cf1h2a6n6mpkr6bgtnd0-a/movietheatherdb",
+    "port" : 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1" : true,
+    "dialectOptions": {
+      "ssl" : {
+        "require" : true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "1Mady9u9p7lteRE66qNWXfLe5O1YOCqi",
+    "database": "movietheatherdb",
+    "host": "dpg-cf1h2a6n6mpkr6bgtnd0-a.oregon-postgres.render.com",
+    "url" : "postgres://root:1Mady9u9p7lteRE66qNWXfLe5O1YOCqi@dpg-cf1h2a6n6mpkr6bgtnd0-a/movietheatherdb",
+    "port" : 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1" : true,
+    "dialectOptions": {
+      "ssl" : {
+        "require" : true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
